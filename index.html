@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Compare Internship Plans</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>Compare Internship Plans</h1>
+    <p>Choose the plan that’s right for your growth</p>
+  </header>
+
+  <section class="toggle-section">
+    <label class="toggle-label">
+      <input type="checkbox" id="darkToggle" />
+      <span>🌙 Enable Dark Mode</span>
+    </label>
+  </section>
+
+  <section class="toggle-section">
+    <label class="toggle-label">
+      <input type="checkbox" id="billingToggle" />
+      <span>Toggle Yearly Duration</span>
+    </label>
+  </section>
+
+  <section class="comparison-table">
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Features</th>
+            <th>Starter</th>
+            <th class="highlight">Pro <span class="badge">Most Popular</span></th>
+            <th>Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Access to Live Projects</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Mentorship Support</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Weekly Workshops</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Certificate of Completion</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Resume Review</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Job Assistance</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>✅</td>
+          </tr>
+          <tr class="pricing-row">
+            <td>Duration</td>
+            <td data-monthly="1 Month" data-yearly="3 Months">1 Month</td>
+            <td data-monthly="2 Months" data-yearly="6 Months">2 Months</td>
+            <td data-monthly="3 Months" data-yearly="9 Months">3 Months</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="accordion-table">
+    <div class="accordion-card">
+      <h3>Starter</h3>
+      <ul>
+        <li>❌ Access to Live Projects</li>
+        <li>❌ Mentorship Support</li>
+        <li>✅ Weekly Workshops</li>
+        <li>✅ Certificate of Completion</li>
+        <li>❌ Resume Review</li>
+        <li>❌ Job Assistance</li>
+        <li class="duration-starter">1 Month</li>
+      </ul>
+    </div>
+
+    <div class="accordion-card highlight">
+      <h3>Pro <span class="badge">Most Popular</span></h3>
+      <ul>
+        <li>✅ Access to Live Projects</li>
+        <li>✅ Mentorship Support</li>
+        <li>✅ Weekly Workshops</li>
+        <li>✅ Certificate of Completion</li>
+        <li>✅ Resume Review</li>
+        <li>❌ Job Assistance</li>
+        <li class="duration-pro">2 Months</li>
+      </ul>
+    </div>
+
+    <div class="accordion-card">
+      <h3>Premium</h3>
+      <ul>
+        <li>✅ Access to Live Projects</li>
+        <li>✅ Mentorship Support</li>
+        <li>✅ Weekly Workshops</li>
+        <li>✅ Certificate of Completion</li>
+        <li>✅ Resume Review</li>
+        <li>✅ Job Assistance</li>
+        <li class="duration-premium">3 Months</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <p>Ready to start your journey?</p>
+    <a href="#" class="cta-button">Apply Now</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
